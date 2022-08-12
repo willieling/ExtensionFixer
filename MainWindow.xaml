@@ -12,6 +12,7 @@
         <Button x:Name="OpenExplorerDialog" Content="Select Folder" HorizontalAlignment="Left" Margin="376,13,0,0" VerticalAlignment="Top" Click="OpenExplorerDialog_Click"/>
         <Button x:Name="ScanFolderButton" Content="Scan Folder" HorizontalAlignment="Left" Margin="463,13,0,0" VerticalAlignment="Top" Click="ScanFolderButton_Click"/>
         <Button x:Name="FixExtensionButton" Content="Fix Extensions" HorizontalAlignment="Left" Margin="543,13,0,0" VerticalAlignment="Top" Click="FixExtensionButton_Click"/>
+        <CheckBox x:Name="SearchChildFolderCheckbox" Content="Search child folders" HorizontalAlignment="Left" Margin="640,15,0,0" VerticalAlignment="Top" Checked="SearchChildFolderCheckbox_Changed" Unchecked="SearchChildFolderCheckbox_Changed"/>
 
     </Grid>
 </Window>

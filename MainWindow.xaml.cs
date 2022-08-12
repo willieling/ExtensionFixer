@@ -20,9 +20,14 @@ namespace ExtensionFixer
     /// </summary>
     public partial class MainWindow : Window
     {
+        private bool? searchChildFolders = true;
+
         public MainWindow()
         {
             InitializeComponent();
+
+            PathTextBox.Text = String.Empty;
+            SearchChildFolderCheckbox.IsChecked = true;
         }
 
         private void OpenExplorerDialog_Click(object sender, RoutedEventArgs e)
@@ -43,6 +48,11 @@ namespace ExtensionFixer
         private void ScanFolderButton_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void SearchChildFolderCheckbox_Changed(object sender, RoutedEventArgs e)
+        {
+            searchChildFolders = ((CheckBox)sender).IsChecked;
         }
     }
 }
