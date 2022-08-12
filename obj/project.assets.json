@@ -1,0 +1,132 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "MagickNETComplete-x64/1.3.5.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard20/Magick.NET-Q8-x64.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard20/Magick.NET-Q8-x64.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-musl-x64/native/Magick.Native-Q8-x64.dll.so": {
+            "assetType": "native",
+            "rid": "linux-musl-x64"
+          },
+          "runtimes/linux-x64/native/Magick.Native-Q8-x64.dll.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/Magick.Native-Q8-x64.dll.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/Magick.Native-Q8-x64.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MagickNETComplete-x64/1.3.5.2": {
+      "sha512": "pKep30nb73XuodXF2P/ah+x9SjaljsBs71P+yGpKfFmiKMyht5WsCwgefH4YefKJhyLkhIawyqhsqYjUhnZoPg==",
+      "type": "package",
+      "path": "magicknetcomplete-x64/1.3.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net40/MagickNETComplete-x64.targets",
+        "lib/net40/Magick.NET-Q8-x64.dll",
+        "lib/net40/Magick.NET-Q8-x64.xml",
+        "lib/netstandard20/Magick.NET-Q8-x64.dll",
+        "lib/netstandard20/Magick.NET-Q8-x64.xml",
+        "magicknetcomplete-x64.1.3.5.2.nupkg.sha512",
+        "magicknetcomplete-x64.nuspec",
+        "runtimes/linux-musl-x64/native/Magick.Native-Q8-x64.dll.so",
+        "runtimes/linux-x64/native/Magick.Native-Q8-x64.dll.so",
+        "runtimes/osx-x64/native/Magick.Native-Q8-x64.dll.dylib",
+        "runtimes/win-x64/native/Magick.Native-Q8-x64.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "MagickNETComplete-x64 >= 1.3.5.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\willi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\willi\\source\\repos\\ExtensionFixer\\ExtensionFixer\\ExtensionFixer.csproj",
+      "projectName": "ExtensionFixer",
+      "projectPath": "C:\\Users\\willi\\source\\repos\\ExtensionFixer\\ExtensionFixer\\ExtensionFixer.csproj",
+      "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\willi\\source\\repos\\ExtensionFixer\\ExtensionFixer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "MagickNETComplete-x64": {
+            "target": "Package",
+            "version": "[1.3.5.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

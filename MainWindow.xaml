@@ -1,0 +1,17 @@
+﻿<Window x:Class="ExtensionFixer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExtensionFixer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="PathTextBox" HorizontalAlignment="Left" Margin="89,15,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="282" IsReadOnly="True"/>
+        <Label Content="Path" HorizontalAlignment="Left" Margin="46,11,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="OpenExplorerDialog" Content="Select Folder" HorizontalAlignment="Left" Margin="376,13,0,0" VerticalAlignment="Top" Click="OpenExplorerDialog_Click"/>
+        <Button x:Name="ScanFolderButton" Content="Scan Folder" HorizontalAlignment="Left" Margin="463,13,0,0" VerticalAlignment="Top" Click="ScanFolderButton_Click"/>
+        <Button x:Name="FixExtensionButton" Content="Fix Extensions" HorizontalAlignment="Left" Margin="543,13,0,0" VerticalAlignment="Top" Click="FixExtensionButton_Click"/>
+
+    </Grid>
+</Window>

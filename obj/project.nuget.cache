@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TKu8mLa2A18AO78k1NoresRw4IHljf5zjnQc7WCuE1ZgHJgbbmc661lmDtWiOZthj9vhshe4BUvDCVKSteqgXg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\willi\\source\\repos\\ExtensionFixer\\ExtensionFixer\\ExtensionFixer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\willi\\.nuget\\packages\\magicknetcomplete-x64\\1.3.5.2\\magicknetcomplete-x64.1.3.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}
